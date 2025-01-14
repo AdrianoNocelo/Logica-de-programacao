@@ -6,6 +6,7 @@ let myName = "Adriano Nocelo";
 
 // Aqui estamos printando o nome
 console.log(myName);
+// o \n quebra uma linha (dá um enter)
 console.log("\n");
 
 // =============== Tipos de Variáveis ===============
