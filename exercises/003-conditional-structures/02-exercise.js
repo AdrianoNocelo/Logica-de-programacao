@@ -5,12 +5,12 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-let idade = await rl.question("Digite sua idade: ");
+let numero= await rl.question("Digite um número: ");
 
-if (Number(idade) >= 18) {
-  console.log("Você é maior de idade.");
+if (Number(numero) >= 0) {
+  console.log("O número é positivo");
 } else {
-  console.log("Você é menor de idade.");
+  console.log("O número é negativo.");
 }
 
 rl.close();
