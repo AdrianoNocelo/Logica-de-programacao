@@ -7,7 +7,6 @@
 ## Último elemento
 - Crie um array com 5 nomes.
 - Exiba o último elemento do array.
-- Exemplo de saída:
 
 ## Dobrar valores
 - Peça ao usuário 5 valores
