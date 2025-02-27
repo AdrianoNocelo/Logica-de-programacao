@@ -30,7 +30,7 @@ if (animal === "Dinossauro") {
 } else if (animal === "Vaca") {
   console.log("Está vivendo");
 } else {
-  console.log("Não conheço esse animal...")
+  console.log("Não conheço esse animal...");
 }
 
-rl.close()
+rl.close();
