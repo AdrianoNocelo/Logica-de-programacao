@@ -20,7 +20,7 @@ Digite um número: 5
 1 + 2 + 3 + 4 + 5 = 15
 ```
 
-## Contando Vogais
+## Contando Vogais (Resolvido)
 - Peça uma palavra ao usuário e conte quantas vogais (a, e, i, o, u) ela tem.
 - Exemplo de saída:
 ```
