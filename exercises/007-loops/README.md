@@ -12,7 +12,7 @@ Digite um número: 3
 3 x 10 = 30
 ```
 
-## Soma de números
+## Soma de números (Resolvido)
 - Peça um número ao usuário e some todos os números de 1 até esse número.
 - Exemplo de saída:
 ```
