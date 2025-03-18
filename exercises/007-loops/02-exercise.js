@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 let numero = await rl.question("Digite um número: ");
 
 for (let i = 1; i <= numero; i++) {
-    const soma = Number(numero) + Number(i);
+    const soma = Number(i) + Number(numero) ;
     console.log(numero + " + " + i + " = " + soma)
 }
 

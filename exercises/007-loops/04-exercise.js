@@ -6,10 +6,15 @@ const rl = readline.createInterface({
 });
 
 let numero = await rl.question("Digite um número: ");
+let contadorDeCaracteres = 0;
 
-for (let i = 0; i <= numero; i++) {
-    const soma = Number(numero) + Number(i);
-    console.log(numero + " + " + i + " = " + soma)
+for (let i = 1; i <= numero; i++) {
+    const numerosimpar = i % 2 !== 0;
+
+  if(numerosimpar) {
+    contadorDeCaracteres += 1;
+    console.log("Os números ímpares entre 1 e " + numero + " são: " + numerosimpar)
+  }
+
 }
-
 rl.close();
