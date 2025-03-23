@@ -6,13 +6,17 @@ const rl = readline.createInterface({
 });
 
 let numero = await rl.question("Digite um número: ");
+let  strAcc = "";
 
 for (let i = 1; i <= numero; i++) {
   const numerosimpar = i % 2 !== 0;
-
+  
   if (numerosimpar) {
-    console.log("Os números ímpares entre 1 e " + numero + " são: " + i);
+    strAcc = strAcc + i + " , ";
+    
   }
 }
+
+console.log("Os números ímpares entre 1 e " + numero + " são: " + strAcc);
 
 rl.close();
