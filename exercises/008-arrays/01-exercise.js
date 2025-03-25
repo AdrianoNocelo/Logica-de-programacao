@@ -1,5 +1,3 @@
-// Contador de números pares
-
 import readline from "node:readline/promises";
 
 const rl = readline.createInterface({
@@ -7,7 +5,10 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-const listDeCompras = ["banana", "pão", "ovo", "requeijão", "sabonete" ];
-    console.log(listDeCompras);
+let listaDeCompras = ["banana", "pão", "ovo", "requeijão", "sabonete" ];
+
+    for (let i = 0; i < listaDeCompras.length; i++){
+      console.log(listaDeCompras[i]);
+}
 
     rl.close();

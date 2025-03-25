@@ -18,7 +18,7 @@ Valor 2: 20
 Valor 3: 30
 Valor 4: 40
 Valor 5: 50
-Dobrado: 10, 20, 30, 40, 50
+Dobrado: 20, 40, 60, 80, 100
 ```
 - Dica: Para pedir múltiplos valores ao usuário, você pode usar um loop.
 ```js
